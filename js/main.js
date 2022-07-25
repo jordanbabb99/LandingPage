@@ -61,6 +61,10 @@
         ]
     });
 
+    $("#loginButton").click(function(){
+        $(".modal").css("display", "block")
+    })
+
     
 })(jQuery);
 
